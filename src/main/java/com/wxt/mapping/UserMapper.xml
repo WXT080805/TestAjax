@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper namespace="com.zks.dao.UserMapper">
+   <select id="getAllUser" resultType="User" >  
+        select * from test_ajax
+   </select>
+</mapper>
